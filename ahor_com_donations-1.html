@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#0b0d14">
+<title>Ahror.com — Донаты</title>
+<style>
+:root{color-scheme:dark;--bg:#090b12;--panel:#121522;--muted:#a6adbf;--purple:#8157f5;--purple2:#6848e9;--line:#252a3b}
+*{box-sizing:border-box}
+body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;color:#f7f7fc;background:radial-gradient(ellipse at 8% 0%,#261b49 0,transparent 38%),radial-gradient(ellipse at 100% 20%,#0d2935 0,transparent 34%),var(--bg)}
+.wrap{width:min(1180px,calc(100% - 32px));margin:auto}
+header{height:82px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #ffffff0b}
+.brand{font-size:24px;font-weight:850;letter-spacing:-1px}.brand span{color:#b79aff}
+header .tag{color:var(--muted);font-size:14px}
+.hero{padding:76px 0 42px;max-width:850px}
+.eyebrow{color:#b79aff;font-weight:800;letter-spacing:3px;font-size:12px}
+h1{font-size:clamp(42px,7vw,76px);line-height:1.03;letter-spacing:-3px;margin:18px 0}
+h1 span{display:block;color:#a98aff}
+.lead{font-size:18px;line-height:1.65;color:var(--muted);max-width:680px}
+.section-head{display:flex;align-items:end;justify-content:space-between;gap:12px;margin:30px 0 18px}
+h2{font-size:25px;margin:0;letter-spacing:-.6px}.hint{font-size:13px;color:var(--muted)}
+.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.card{background:linear-gradient(145deg,#151927,#10121c);border:1px solid var(--line);border-radius:22px;padding:25px;display:flex;flex-direction:column;min-height:250px;box-shadow:0 16px 38px #00000012}
+.symbol{width:52px;height:52px;border-radius:15px;background:#292044;color:#c4adff;display:grid;place-items:center;font-size:24px;margin-bottom:22px}
+.card h3{font-size:19px;margin:0 0 9px}.card p{margin:0;color:var(--muted);line-height:1.5;min-height:45px}
+.price{font-size:29px;font-weight:850;letter-spacing:-.8px;margin:22px 0}
+.btn{border:0;border-radius:13px;background:linear-gradient(100deg,var(--purple),var(--purple2));color:white;font-weight:800;font-size:16px;padding:15px 18px;text-decoration:none;text-align:center;cursor:pointer;display:block;width:100%;transition:transform .15s,filter .15s}
+.btn:hover{filter:brightness(1.1);transform:translateY(-1px)}
+.note{margin-top:22px;padding:18px 21px;border:1px solid var(--line);background:#ffffff05;border-radius:16px;color:var(--muted);line-height:1.55;font-size:14px}
+.contact{margin:46px 0 28px;padding:30px;border:1px solid var(--line);border-radius:23px;background:#131622;display:flex;align-items:center;justify-content:space-between;gap:22px}
+.contact h2{margin-bottom:9px}.contact p{color:var(--muted);margin:0;line-height:1.5}.contact .btn{width:auto;min-width:180px}
+footer{padding:22px 0 32px;color:#777f94;font-size:13px;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+@media(max-width:800px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.hero{padding-top:54px}.card{padding:20px}}
+@media(max-width:540px){header{height:70px}.brand{font-size:21px}header .tag{font-size:12px}.grid{grid-template-columns:1fr}.card{min-height:0}.card p{min-height:0}.contact{align-items:stretch;flex-direction:column;padding:24px}.contact .btn{width:100%}.section-head{align-items:start;flex-direction:column}h1{letter-spacing:-2px}.lead{font-size:16px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header><div class="brand">Ahror<span>.com</span></div><div class="tag">Донаты · Просто и понятно</div></header>
+<main>
+<section class="hero">
+<div class="eyebrow">ПОДДЕРЖИ ПРОЕКТ</div>
+<h1>Твой донат.<span>Твоя поддержка.</span></h1>
+<p class="lead">Выбери подходящий вариант ниже. Нажми кнопку, чтобы отправить автору заявку в Telegram.</p>
+</section>
+<section>
+<div class="section-head"><h2>Услуги и цены</h2><div class="hint">Цены указаны в сумах</div></div>
+<div class="grid">
+<article class="card"><div class="symbol">✦</div><h3>40 Robux</h3><p>Небольшой пакет Robux</p><div class="price">8 000 сум</div><a class="btn" href="https://t.me/owfaw?text=Здравствуйте!%20Хочу%20заказать%2040%20Robux%20за%208%20000%20сум." target="_blank" rel="noopener">Выбрать</a></article>
+<article class="card"><div class="symbol">◆</div><h3>80 Robux</h3><p>Стандартный пакет Robux</p><div class="price">15 000 сум</div><a class="btn" href="https://t.me/owfaw?text=Здравствуйте!%20Хочу%20заказать%2080%20Robux%20за%2015%20000%20сум." target="_blank" rel="noopener">Выбрать</a></article>
+<article class="card"><div class="symbol">✧</div><h3>120 Robux</h3><p>Больше Robux для покупок</p><div class="price">18 000 сум</div><a class="btn" href="https://t.me/owfaw?text=Здравствуйте!%20Хочу%20заказать%20120%20Robux%20за%2018%20000%20сум." target="_blank" rel="noopener">Выбрать</a></article>
+<article class="card"><div class="symbol">✦</div><h3>160 Robux</h3><p>Увеличенный пакет Robux</p><div class="price">26 000 сум</div><a class="btn" href="https://t.me/owfaw?text=Здравствуйте!%20Хочу%20заказать%20160%20Robux%20за%2026%20000%20сум." target="_blank" rel="noopener">Выбрать</a></article>
+<article class="card"><div class="symbol">◇</div><h3>100 Telegram Stars</h3><p>Звёзды для Telegram</p><div class="price">28 000 сум</div><a class="btn" href="https://t.me/owfaw?text=Здравствуйте!%20Хочу%20заказать%20100%20Telegram%20Stars%20за%2028%20000%20сум." target="_blank" rel="noopener">Выбрать</a></article>
+<article class="card"><div class="symbol">＋</div><h3>Другие услуги</h3><p>Уточни доступные услуги и стоимость у автора</p><div class="price">По запросу</div><a class="btn" href="https://t.me/owfaw" target="_blank" rel="noopener">Спросить автора</a></article>
+</div>
+<div class="note"><strong>Важно:</strong> оформление заказа происходит через Telegram. Оплата на этом сайте не принимается. Перед оплатой уточни у автора актуальную цену и способ получения услуги.</div>
+</section>
+<section class="contact"><div><h2>Хочешь заказать?</h2><p>Свяжись с автором в Telegram — он поможет оформить заявку.</p></div><a class="btn" href="https://t.me/owfaw" target="_blank" rel="noopener">Связаться в Telegram</a></section>
+</main>
+<footer><span>© Ahror.com</span><span>Заказы и вопросы: @owfaw</span></footer>
+</div>
+</body>
+</html>
